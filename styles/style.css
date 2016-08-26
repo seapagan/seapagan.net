@@ -1,0 +1,56 @@
+.ID { $Id: style.css,v 1.3 2002/08/26 09:30:29 seapagan Exp $ }
+
+body { background-color: #E5E5E5; font-family: helvetica, arial, geneva, sans-serif; font-size=10pt;}
+td { font-size: 10pt; font-family: helvetica, arial, geneva, sans-serif; }
+td.loghead {
+        background-color: #cccccc;
+        background-image: url(../images/cellpic1.gif);
+        background-repeat: repeat-x;
+        border: 1px #98AAB1 solid;
+}
+td.cathead {
+        background-color: #cccccc;
+        background-image: url(../images/cellpic1.gif);
+        background-repeat: repeat-x;
+        border: 1px #98AAB1 solid;
+}
+td.articlehead {
+        background-color: #cccccc;
+        background-image: url(../images/cellpic1.gif);
+        background-repeat: repeat-x;
+        border: 1px #98AAB1 solid;
+}
+.commenthead {
+        background-color: #cccccc;
+        background-image: url(../images/cellpic1.gif);
+        background-repeat: repeat-x;
+        border: 1px #98AAB1 solid;
+}
+.helpline { background-color: #DEE3E7; border-style: none; }
+
+.bodyline { background-color: #FFFFFF; border: 1px #98AAB1 solid; }
+.menuline { 
+	background-color: #E1E1E1;
+	border: 1px #98AAB1 solid;
+	background-image: url(../images/cell pic1.gif);
+}
+.contentline { background-color: #E1E1E1; border: 1px #98AAB1 solid; }
+.tableline { background-color: #FFFFF; border: 2px #006699 solid; }
+.welcome { background-color: #E1E1E1; border: 2px #006699 solid; }
+
+.p.small {font-size: 8pt; }
+
+.timestamp {font-size: 7pt; }
+
+.boxheading { background-color: #FFFFFF; border: 1px #98AAB1 solid; }
+
+a:link, a:active, a:visited { color: #006699; text-decoration: none; }
+a:hover { text-decoration: underline; color: #DD6900; }
+hr { height: 0px; border: solid #D1D7DC 0px; border-top-width: 1px; }
+.fixedtable { table-layout: fixed; }
+
+.year_button { background-color: #e5e5e5; border: 2px #006699 solid; }
+.month_list { background-color: #eeeeee; border: 1px #98AAB1 solid; }
+
+.loglink { color: #006699; background-color: #ffffff; border: 1px #98AAB1 solid; }
+.lognolink { border: 1px #98AAB1 solid; }
