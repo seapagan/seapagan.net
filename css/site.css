@@ -1,0 +1,16 @@
+body {
+  background-color: #e5e5e5;
+  font-family: helvetica, arial, geneva, sans-serif; }
+
+a:link,
+a:active,
+a:visited {
+  color: #069;
+  text-decoration: none; }
+  a:link:hover,
+  a:active:hover,
+  a:visited:hover {
+    color: #dd6900;
+    text-decoration: underline; }
+
+/*# sourceMappingURL=site.css.map */
