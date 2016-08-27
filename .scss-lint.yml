@@ -1,0 +1,5 @@
+---
+linters:
+  EmptyRule:
+    enabled: false
+
