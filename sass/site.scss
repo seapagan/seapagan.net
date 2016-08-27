@@ -1,9 +1,14 @@
 @import 'partials/colors';
 @import 'partials/fonts';
+@import 'partials/mixins';
+
+@include google-font("Scope+One|Raleway");
 
 body {
   background-color: $body-background-color;
   font-family: $body-font;
+  margin: 20px;
+
 }
 
 a:link,
@@ -18,10 +23,19 @@ a:visited {
   }
 }
 
-.headline-image {
-
+h1 {
+  text-align: center;
+  padding: 50px 0;
+  font-family: $header-font;
 }
 
-.avatar {
+.main {
+  padding: 40px 0;
+  background-color: $background-color;
+  border: thin solid $body-border-color;
+  border-radius: 10px;
+}
 
+.footer {
+  text-align: right;
 }

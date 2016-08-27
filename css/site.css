@@ -1,6 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Scope+One|Raleway);
 body {
   background-color: #e5e5e5;
-  font-family: helvetica, arial, geneva, sans-serif; }
+  font-family: "Raleway", sans-serif;
+  margin: 20px; }
 
 a:link,
 a:active,
@@ -12,5 +14,19 @@ a:visited {
   a:visited:hover {
     color: #dd6900;
     text-decoration: underline; }
+
+h1 {
+  text-align: center;
+  padding: 50px 0;
+  font-family: "Scope One", serif; }
+
+.main {
+  padding: 40px 0;
+  background-color: #fff;
+  border: thin solid #999;
+  border-radius: 10px; }
+
+.footer {
+  text-align: right; }
 
 /*# sourceMappingURL=site.css.map */
