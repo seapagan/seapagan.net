@@ -1,9 +1,27 @@
-.ID { $Id: style.css,v 1.3 2002/08/26 09:30:29 seapagan Exp $ }
+@import 'partials/colors';
+@import 'partials/fonts';
 
-body { background-color: #E5E5E5; font-family: helvetica, arial, geneva, sans-serif; font-size=10pt;}
-td { font-size: 10pt; font-family: helvetica, arial, geneva, sans-serif; }
+body {
+  background-color: $body-background-color;
+  font-family: $body-font;
+}
 
-.bodyline { background-color: #FFFFFF; border: 1px #98AAB1 solid; }
+a:link,
+a:active,
+a:visited {
+  color: $link-color;
+  text-decoration: none;
 
-a:link, a:active, a:visited { color: #006699; text-decoration: none; }
-a:hover { text-decoration: underline; color: #DD6900; }
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: underline;
+  }
+}
+
+.headline-image {
+
+}
+
+.avatar {
+
+}
