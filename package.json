@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/seapagan/seapagan.net/issues"
   },
-  "homepage": "https://github.com/seapagan/seapagan.net#readme"
+  "homepage": "https://github.com/seapagan/seapagan.net#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
 }
