@@ -1,0 +1,29 @@
+.header {
+  height: 90vh;
+  padding: 2rem 2rem;
+  background-color: $background-color;
+  border: thin solid $body-border-color;
+  border-radius: 1rem;
+
+  &__content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    &__logo-box {
+      padding-bottom: 2rem;
+    }
+
+    &__avatar {
+
+    }
+
+    &__text-box {
+      padding-bottom: 2rem;
+    }
+  }
+
+  
+}

@@ -1,0 +1,11 @@
+body {
+  background-color: $body-background-color;
+  font-family: $body-font;
+  line-height: 1.7;
+  padding: 3rem;
+}
+
+.heading-primary {
+  font-family: $header-font;
+  font-size: 4rem;
+}
